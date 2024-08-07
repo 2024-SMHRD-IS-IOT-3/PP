@@ -162,7 +162,7 @@ router.post("/delete-account", AuthToken, async (req, res) => {
         { id: userId }
       );
       await connection.execute(
-        "DELETE FROM VERIFICATION_CODES WHERE ID = :id",
+        "DELETE FROM TB_VERIFICATION_CODES WHERE ID = :id",
         { id: userId }
       );
       await connection.execute(
