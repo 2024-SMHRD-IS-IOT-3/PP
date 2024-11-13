@@ -12,7 +12,7 @@
 
 ## ⚙ 개발 환경
 - Arduino
-- Python?
+- Jupyter Notebook
 - Flutter
 - Node.js v20.12.0
 
